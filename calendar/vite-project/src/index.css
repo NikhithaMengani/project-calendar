@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Full Blue Highlight for Today's Date Box === */
+.today-box {
+  background-color: #2563eb !important; /* Blue-600 full box fill */
+  color: #ffffff !important; /* All text white */
+  border: 2px solid #1e3a8a !important; /* darker border */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.7);
+}
+
+/* Ensure everything inside stays white */
+.today-box * {
+  color: #ffffff !important;
+}
+
+/* Remove circle/dot background */
+.today-number,
+.today-dot {
+  background: transparent !important;
+  box-shadow: none !important;
+}

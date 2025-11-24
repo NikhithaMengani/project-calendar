@@ -1,0 +1,5 @@
+[
+{ "id": 1, "title": "Team Standup", "date": "2025-11-15", "start": "09:30", "durationMinutes": 30 },
+{ "id": 2, "title": "Project Sync", "date": "2025-11-15", "start": "09:45", "durationMinutes": 45 },
+{ "id": 3, "title": "Design Review", "date": "2025-11-18", "start": "14:00", "durationMinutes": 60 }
+]
